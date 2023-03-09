@@ -1,6 +1,3 @@
-const removeFromArray = function() {
+const removeFromArray = (arr, ...args) => arr.filter(element => !args.includes(element));
 
-};
-
-// Do not edit below this line
 module.exports = removeFromArray;
